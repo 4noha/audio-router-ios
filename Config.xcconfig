@@ -1,0 +1,4 @@
+// 署名の Team ID などマシン・アカウント固有の設定は、git 管理外の local.xcconfig に書く。
+//   例: DEVELOPMENT_TEAM = ABCDE12345
+// local.xcconfig が無くてもビルドはでき、Xcode の Signing & Capabilities で Team を選べばよい。
+#include? "local.xcconfig"

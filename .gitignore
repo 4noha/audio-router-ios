@@ -1,0 +1,28 @@
+## OS / IDE
+.DS_Store
+.swiftpm/
+.build/
+*.xcuserstate
+*.xcuserdatad/
+
+## Xcode project (xcodegen が再生成するのでコミットしない方針)
+AudioRouterCompanion.xcodeproj/
+
+## Build artifacts
+build/
+DerivedData/
+
+## App Store Connect API keys / signing
+*.p8
+*.p12
+local.xcconfig
+ExportOptions.plist
+
+## XcodeGen が生成する Info.plist もコミット対象外（project.yml の properties 由来）
+AudioRouterCompanion/Resources/Info.plist
+
+# === エージェントのローカル設定(PC ごとの判断なので載せない) ===
+.codex/
+
+## Python
+__pycache__/
